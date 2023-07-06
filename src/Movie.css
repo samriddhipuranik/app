@@ -1,0 +1,34 @@
+.movie-info {
+  margin-bottom: 20px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.movie-info h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.movie-info-item {
+  margin-bottom: 10px;
+  background-color: #c71717;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.movie-info-item span {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.movie-poster {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}

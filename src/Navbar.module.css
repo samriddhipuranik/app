@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+}
+
+.navbarNav {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+}
+
+.navItem {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+}
+
+.navLink:hover {
+  color: rgb(224, 235, 70);
+}
